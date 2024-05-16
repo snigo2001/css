@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAZON</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #ffffff;
+      color: #0e1e37;
+      background-image: url("https://www.tfe.agency/wp-content/uploads/2022/03/amazon.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      opacity: 100; /* Set the opacity to 100% initially (optional) */
+    }
+
+    header {
+      background-color: #0000003c;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      display: inline-block;
+      vertical-align: middle;
+      height: 50px;
+    }
+
+    .login-form {
+      margin: 50px auto;
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      /* Change the opacity value here to adjust transparency */
+      background-color: rgba(208, 116, 24, 0.705); /* Adjust opacity to 0.5 for 50% */
+      z-index: 1; /* Ensure the form is above the background image */
+    }
+
+    .login-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+    }
+
+    .login-form button {
+      background-color: #F8DB4B;
+      color: #000000;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-form .register-text {
+      display: inline-block;
+      margin-left: 20px; /* Adjust spacing between button and text */
+      font-size: 0.8em; /* Adjust font size of the text */
+      color: #000000; /* Adjust text color */
+    }
+
+    .cost-management-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C0AAAAASUVORK5CYII=" alt="Amazon">
+    <h1>AMAZON Gestion de costos</h1>
+  </header>
+
+  <section class="login-form">
+    <h2>Inicio de sesión</h2>
+    <form action="#">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Iniciar sesión</button>
+      <span class="register-text">¿No tienes cuenta? Registrate</span>
+    </form>
+  </section>
+
+  <section class="cost-management-section">
+    <h2>Gestión de Costes</h2>
+    <p>Calcula de forma automática y precisa los costes, la facturación y el margen de cada uno de tus productos</p>
+  </section>
+
+  <footer>
